@@ -15,6 +15,10 @@ namespace Tests {
 
 		[TestMethod]
 		public void Parse_Spam() {
+
+            //test
+
+
 			var dir = System.IO.Path.Combine(Environment.CurrentDirectory.Split(new[] { "AE.Net.Mail" }, StringSplitOptions.RemoveEmptyEntries)[0],
 				"AE.Net.Mail\\Tests\\Spam");
 			var files = System.IO.Directory.GetFiles(dir, "*.lorien", System.IO.SearchOption.AllDirectories);

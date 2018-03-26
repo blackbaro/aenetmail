@@ -58,3 +58,4 @@ TestResults/*
 */obj/*
 Tests/packages/*
 *.snk
+/.vs/AE.Net.Mail/v15/Server/sqlite3
